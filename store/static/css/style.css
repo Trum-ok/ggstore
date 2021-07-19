@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    display: flex;
+    background-color: #f3f4f8;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: 'Montserrat', sans-serif;
+    color: #252529;
+
+}
+
+div {
+    display: flex;
+}
+
+.name {
+    width: 100px;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.header {
+    margin: 35px 50px 35px 200px;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+h1, h2, h3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.menu {
+    margin-left: 600px;
+}
+
+
+.element {
+    margin-left: 30px;
+}
+
+.shopcart {
+    margin-left: 50px;
+    margin-right: 200px;
+}
+
+.content {
+    flex-wrap: wrap;
+}
+
+.specof {
+    padding: 10px 20px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    background: linear-gradient(#ff5149, #ffb665);
+    color: #f3f4f8;
+}
+
+.special {
+    position: absolute;
+    left: 200px;
+    top: 600px
+}
+
+.description {
+    position: absolute;
+    right: 200px;
+    top: 800px;
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    color: #252529;
+    font-weight: lighter;
+}
+
+.animated-button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 30px;
+    overflow: hidden;
+    border: 2px solid;
+    border-bottom-width: 4px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #252529;
+    background: #f6f6f6;}
+
+.otherbr {
+    margin: 35px 1000px 35px 200px;
+    font-weight: 600;
+}
+
+.brands {
+    justify-content: center;
+    margin-left: 200px;
+}
+
+.footer {
+    width: 9999px;
+    height: 450px;
+    background: #b2b7c2;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+}
+
+.partnlink {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.partners {
+    margin-left: 200px;
+}
+
+p {
+    margin-bottom: 5px;
+}
