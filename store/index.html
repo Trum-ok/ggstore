@@ -6,133 +6,193 @@
     <link rel="stylesheet" href="static/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap"
-          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-<div class="header">
-    <svg class="mouse" enable-background="new 0 0 64 64" height="78" viewBox="0 0 64 64" width="78"
-         xmlns="http://www.w3.org/2000/svg">
+    <div class="container">
+        <div class="header">
+            <div class="logotype">
+                <svg class="mouse" enable-background="new 0 0 64 64" height="78" viewBox="0 0 64 64" width="78"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <g>
+                        <path d="m40.193 36.987-2.658-3.987h-11.07l-2.658 3.987 8.193 12.875zm-10.19 6.013h3.993l-1.996 3.138zm-2.545-4h9.084l-1.273 2h-6.539zm.077-4h8.93l1.333 2h-11.596z"/>
+                        <path d="m49.214 8.685-.877-.293c-2.365-4.396-7.006-7.392-12.337-7.392-1.654 0-3 1.346-3 3v5h-2v-5c0-1.654-1.346-3-3-3-7.72 0-14 6.28-14 14v10.54l-7.056 6.048 1.616 13.728c.313 2.664 1.172 5.18 2.552 7.479 2.705 4.51 7.213 7.7 12.365 8.752l3.24.661c1.705.524 3.482.792 5.283.792 9.925 0 18-8.075 18-18v-20h1c1.654 0 3-1.346 3-3v-6.676c0-3.017-1.924-5.686-4.786-6.639zm2.786 6.639v1.676h-2v-2c0-1.411-.214-2.772-.604-4.057 1.584.864 2.604 2.528 2.604 4.381zm-4.139 31.676h-4.574l.606-2h4.107c0 .679-.056 1.343-.139 2zm-7.604 10h2.291c-.893.786-1.863 1.485-2.914 2.058zm.606-2 .606-2h4.366c-.407.701-.86 1.371-1.365 2zm1.212-4 .606-2h4.792c-.177.684-.389 1.354-.651 2zm2.424-8 .606-2h2.895v2zm1.213-4 .606-2h1.682v2zm1.212-4 1.076-3.552v3.552zm-11.924-31c0-.552.448-1 1-1 6.617 0 12 5.383 12 12v12h-15v-4c1.654 0 3-1.346 3-3v-8c0-.883-.391-1.67-1-2.22zm-5 11h4v2h-4zm0 4h4v1c0 .552-.448 1-1 1h-2c-.552 0-1-.448-1-1zm3-8c.552 0 1 .448 1 1v1h-4v-1c0-.552.448-1 1-1zm-5-8c.552 0 1 .448 1 1v5.78c-.609.549-1 1.337-1 2.22v8c0 1.654 1.346 3 3 3v4h-15v-12c0-6.617 5.383-12 12-12zm-4.123 56.589c-4.605-.94-8.633-3.792-11.051-7.822-1.232-2.055-2-4.304-2.28-6.685l-1.49-12.67 4.944-4.238v.513c0 3.643.631 7.226 1.876 10.648 1.479 4.067 3.878 7.834 6.937 10.892l1.24 1.24c.64.64 1.047 1.487 1.146 2.376l.615 6.142zm3.994.861-.684-6.817c-.149-1.349-.761-2.62-1.721-3.58l-1.24-1.24c-2.853-2.854-5.091-6.367-6.472-10.161-1.128-3.104-1.706-6.351-1.741-9.651h30.638l-9.426 31.106c-1.64.568-3.393.893-5.225.893-1.403 0-2.787-.192-4.129-.55zm23.129-37.45h-1v-4h2v3c0 .552-.448 1-1 1z"/>
+                    </g>
+                </svg>
+                <h1 class="name">GG Store</h1>
+            </div>
+            <div class="navigation">
+                <ul class="menu">
+                    <li><a href="mice.html">Mice</a>
+                        <ul class="sub-menu">
+                            <li><a href="#">Logitech</a></li>
+                            <li><a href="#">Xtrfy</a></li>
+                            <li><a href="#">ZET</a></li>
+                        </ul>
+                    <li><a href="keyboards.html">Keyboards<i class="fa fa-angle-down"></i></a>
+                        <ul class="sub-menu">
+                            <li><a href="#">Varmilo</a></li>
+                            <li><a href="#">HyperX</a></li>
+                            <li><a href="#">ZET</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Headphones.html">Headphones<i class="fa fa-angle-down"></i></a>
+                        <ul class="sub-menu">
+                            <li><a href="#">Corsair</a></li>
+                            <li><a href="#">HyperX</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Other</a></li>
+                </ul>
+            </div>
+            <a href="#" class="shopp">
+                <svg class="shopping-cart" xmlns="http://www.w3.org/2000/svg" x="0px"
+                     y="0px" viewBox="0 0 512 512" xml:space="preserve" width="54"
+                     height="54">
         <g>
-            <path d="m40.193 36.987-2.658-3.987h-11.07l-2.658 3.987 8.193 12.875zm-10.19 6.013h3.993l-1.996 3.138zm-2.545-4h9.084l-1.273 2h-6.539zm.077-4h8.93l1.333 2h-11.596z"/>
-            <path d="m49.214 8.685-.877-.293c-2.365-4.396-7.006-7.392-12.337-7.392-1.654 0-3 1.346-3 3v5h-2v-5c0-1.654-1.346-3-3-3-7.72 0-14 6.28-14 14v10.54l-7.056 6.048 1.616 13.728c.313 2.664 1.172 5.18 2.552 7.479 2.705 4.51 7.213 7.7 12.365 8.752l3.24.661c1.705.524 3.482.792 5.283.792 9.925 0 18-8.075 18-18v-20h1c1.654 0 3-1.346 3-3v-6.676c0-3.017-1.924-5.686-4.786-6.639zm2.786 6.639v1.676h-2v-2c0-1.411-.214-2.772-.604-4.057 1.584.864 2.604 2.528 2.604 4.381zm-4.139 31.676h-4.574l.606-2h4.107c0 .679-.056 1.343-.139 2zm-7.604 10h2.291c-.893.786-1.863 1.485-2.914 2.058zm.606-2 .606-2h4.366c-.407.701-.86 1.371-1.365 2zm1.212-4 .606-2h4.792c-.177.684-.389 1.354-.651 2zm2.424-8 .606-2h2.895v2zm1.213-4 .606-2h1.682v2zm1.212-4 1.076-3.552v3.552zm-11.924-31c0-.552.448-1 1-1 6.617 0 12 5.383 12 12v12h-15v-4c1.654 0 3-1.346 3-3v-8c0-.883-.391-1.67-1-2.22zm-5 11h4v2h-4zm0 4h4v1c0 .552-.448 1-1 1h-2c-.552 0-1-.448-1-1zm3-8c.552 0 1 .448 1 1v1h-4v-1c0-.552.448-1 1-1zm-5-8c.552 0 1 .448 1 1v5.78c-.609.549-1 1.337-1 2.22v8c0 1.654 1.346 3 3 3v4h-15v-12c0-6.617 5.383-12 12-12zm-4.123 56.589c-4.605-.94-8.633-3.792-11.051-7.822-1.232-2.055-2-4.304-2.28-6.685l-1.49-12.67 4.944-4.238v.513c0 3.643.631 7.226 1.876 10.648 1.479 4.067 3.878 7.834 6.937 10.892l1.24 1.24c.64.64 1.047 1.487 1.146 2.376l.615 6.142zm3.994.861-.684-6.817c-.149-1.349-.761-2.62-1.721-3.58l-1.24-1.24c-2.853-2.854-5.091-6.367-6.472-10.161-1.128-3.104-1.706-6.351-1.741-9.651h30.638l-9.426 31.106c-1.64.568-3.393.893-5.225.893-1.403 0-2.787-.192-4.129-.55zm23.129-37.45h-1v-4h2v3c0 .552-.448 1-1 1z"/>
+            <path d="M128.772,352.493h297.461l26.86-105.323C487.583,233.315,512,199.529,512,160.144c0-51.69-42.053-93.742-93.742-93.742   c-44.547,0-81.933,31.236-91.415,72.955H95.9L66.999,30.209H0v29.955h43.943L114.071,325c-17.777,6.12-30.591,23.001-30.591,42.83   c0,24.974,20.318,45.292,45.292,45.292h16.406c-2.548,5.946-3.963,12.489-3.963,19.357c0,27.191,22.121,49.312,49.312,49.312   c27.191,0,49.312-22.121,49.312-49.312c0-6.868-1.415-13.41-3.963-19.357h72.547c-2.548,5.946-3.963,12.489-3.963,19.357   c0,27.191,22.121,49.312,49.312,49.312s49.312-22.121,49.312-49.312c0-6.868-1.415-13.41-3.963-19.357h30.685v-29.955H128.772   c-8.457,0-15.337-6.88-15.337-15.337C113.435,359.373,120.315,352.493,128.772,352.493z M209.883,432.478   c0,10.674-8.683,19.357-19.357,19.357c-10.673,0-19.356-8.683-19.356-19.357c0-10.674,8.683-19.357,19.356-19.357   C201.2,413.122,209.883,421.805,209.883,432.478z M373.128,432.478c0,10.674-8.683,19.357-19.357,19.357   c-10.674,0-19.357-8.683-19.357-19.357c0-10.674,8.683-19.357,19.357-19.357C364.445,413.122,373.128,421.805,373.128,432.478z    M418.258,96.357c35.172,0,63.787,28.615,63.787,63.787s-28.615,63.787-63.787,63.787s-63.787-28.615-63.787-63.787   S383.086,96.357,418.258,96.357z M324.965,169.312c2.081,21.335,11.341,40.597,25.33,55.33v70.705h29.955v-49.52   c11.624,5.176,24.484,8.059,38.008,8.059c0.741,0,1.479-0.011,2.216-0.028l-17.515,68.68H144.406l-40.573-153.226H324.965z"/>
+            <rect x="166.384" y="201.413" width="29.955" height="93.934"/>
+            <rect x="227.688" y="201.413" width="29.955" height="93.934"/>
+            <rect x="288.992" y="201.413" width="29.955" height="93.934"/>
+            <polygon
+                    points="403.28,201.607 433.236,201.607 433.236,175.045 459.798,175.045 459.798,145.09 433.236,145.09 433.236,118.528    403.28,118.528 403.28,145.09 376.718,145.09 376.718,175.045 403.28,175.045  "/>
         </g>
-    </svg>
-    <h1 class="name">GG Store</h1>
-    <div class="navigation">
-        <nav class="menu">
-            <a href="mice.html" class="element"><h3>Mice</h3></a>
-            <a class="element"><h4>|</h4></a>
-            <a href="keyboards.html" class="element"><h3>Keyboards</h3></a>
-            <a class="element"><h4>|</h4></a>
-            <a href="Headphones.html" class="element"><h3>Headphones</h3></a>
-            <a class="element"><h4>|</h4></a>
-            <a href="#" class="element"><h3>Other</h3></a>
-        </nav>
+        </svg>
+            </a>
+        </div>
+        <div class="content">
+            <video muted="" playsinline="" loop="" autoplay=""
+                   poster="https://xtrfy.com/wp/wp-content/uploads/2021/01/MZ1-Frontpage.jpg">
+                <source src="https://xtrfy.com/wp/wp-content/uploads/2021/01/Xtrfy-MZ1-Frontpage-video.mp4"
+                        type="video/mp4">
+            </video>
+            <h2 class="special-offer">special offer!</h2>
+            <span class="special">
+                        <h1>Xtrfy MZ1</h1>
+                        <a href="https://www.xtrfy.com/mice/mz1" class="animated-button">check it out</a>
+                    </span>
+            <h3 class="description"> Ultra-light construction, perfect shape and customizable RGB</h3>
+            <h1 class="other-brand">OTHER BRANDS</h1>
+            <div class="brands">
+                <svg class="card" width="245" height="300" viewBox="0 0 324 379" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_d)">
+                        <rect x="7" y="3" width="310" height="365" rx="64" fill="white"/>
+                    </g>
+                    <defs>
+                        <filter id="filter0_d" x="0" y="0" width="324" height="379">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feColorMatrix in="SourceAlpha" type="matrix"
+                                           values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                            <feOffset dy="4"/>
+                            <feGaussianBlur stdDeviation="3.5"/>
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+                        </filter>
+                    </defs>
+                </svg>
+                <svg class="card" width="245" height="300" viewBox="0 0 324 379" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_d)">
+                        <rect x="7" y="3" width="310" height="365" rx="64" fill="white"/>
+                    </g>
+                    <defs>
+                        <filter id="filter0_d" x="0" y="0" width="324" height="379">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feColorMatrix in="SourceAlpha" type="matrix"
+                                           values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                            <feOffset dy="4"/>
+                            <feGaussianBlur stdDeviation="3.5"/>
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+                        </filter>
+                    </defs>
+                </svg>
+                <svg class="card" width="245" height="300" viewBox="0 0 324 379" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_d)">
+                        <rect x="7" y="3" width="310" height="365" rx="64" fill="white"/>
+                    </g>
+                    <defs>
+                        <filter id="filter0_d" x="0" y="0" width="324" height="379">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feColorMatrix in="SourceAlpha" type="matrix"
+                                           values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                            <feOffset dy="4"/>
+                            <feGaussianBlur stdDeviation="3.5"/>
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+                        </filter>
+                    </defs>
+                </svg>
+                <svg class="card" width="245" height="300" viewBox="0 0 324 379" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_d)">
+                        <rect x="7" y="3" width="310" height="365" rx="64" fill="white"/>
+                    </g>
+                    <defs>
+                        <filter id="filter0_d" x="0" y="0" width="324" height="379">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feColorMatrix in="SourceAlpha" type="matrix"
+                                           values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                            <feOffset dy="4"/>
+                            <feGaussianBlur stdDeviation="3.5"/>
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+                        </filter>
+                    </defs>
+                </svg>
+                <svg class="card" width="245" height="300" viewBox="0 0 324 379" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_d)">
+                        <rect x="7" y="3" width="310" height="365" rx="64" fill="white"/>
+                    </g>
+                    <defs>
+                        <filter id="filter0_d" x="0" y="0" width="324" height="379">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feColorMatrix in="SourceAlpha" type="matrix"
+                                           values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                            <feOffset dy="4"/>
+                            <feGaussianBlur stdDeviation="3.5"/>
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+                        </filter>
+                    </defs>
+                </svg>
+                <svg class="card" width="245" height="300" viewBox="0 0 324 379" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_d)">
+                        <rect x="7" y="3" width="310" height="365" rx="64" fill="white"/>
+                    </g>
+                    <defs>
+                        <filter id="filter0_d" x="0" y="0" width="324" height="379">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feColorMatrix in="SourceAlpha" type="matrix"
+                                           values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                            <feOffset dy="4"/>
+                            <feGaussianBlur stdDeviation="3.5"/>
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+                        </filter>
+                    </defs>
+                </svg>
+            </div>
+        </div>
+        <div class="footer">
+            <h3 class="partners">Our partners</h3>
+            <hr>
+            <div class="partners"><a class="partner-link" href="https://www.xtrfy.com/">Xtrfy</a></div>
+            <div class="partners"><a class="partner-link" href="https://www.razer.ru/">Razer</a></div>
+            <div class="partners"><a class="partner-link" href="https://www.hyperxgaming.com/ru">HyperX</a></div>
+            <div class="partners"><a class="partner-link" href="https://ru.steelseries.com/">Steel Series</a></div>
+            <div class="partners"><a class="partner-link" href="https://www.corsair.com/ru/ru/">Corsair</a></div>
+        </div>
     </div>
-    <?xml version="1.0" encoding="iso-8859-1"?>
-    <a class="element" href="#"><svg class="shopcart" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px"
-         y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="54"
-         height="54">
-<g>
-	<path d="M128.772,352.493h297.461l26.86-105.323C487.583,233.315,512,199.529,512,160.144c0-51.69-42.053-93.742-93.742-93.742   c-44.547,0-81.933,31.236-91.415,72.955H95.9L66.999,30.209H0v29.955h43.943L114.071,325c-17.777,6.12-30.591,23.001-30.591,42.83   c0,24.974,20.318,45.292,45.292,45.292h16.406c-2.548,5.946-3.963,12.489-3.963,19.357c0,27.191,22.121,49.312,49.312,49.312   c27.191,0,49.312-22.121,49.312-49.312c0-6.868-1.415-13.41-3.963-19.357h72.547c-2.548,5.946-3.963,12.489-3.963,19.357   c0,27.191,22.121,49.312,49.312,49.312s49.312-22.121,49.312-49.312c0-6.868-1.415-13.41-3.963-19.357h30.685v-29.955H128.772   c-8.457,0-15.337-6.88-15.337-15.337C113.435,359.373,120.315,352.493,128.772,352.493z M209.883,432.478   c0,10.674-8.683,19.357-19.357,19.357c-10.673,0-19.356-8.683-19.356-19.357c0-10.674,8.683-19.357,19.356-19.357   C201.2,413.122,209.883,421.805,209.883,432.478z M373.128,432.478c0,10.674-8.683,19.357-19.357,19.357   c-10.674,0-19.357-8.683-19.357-19.357c0-10.674,8.683-19.357,19.357-19.357C364.445,413.122,373.128,421.805,373.128,432.478z    M418.258,96.357c35.172,0,63.787,28.615,63.787,63.787s-28.615,63.787-63.787,63.787s-63.787-28.615-63.787-63.787   S383.086,96.357,418.258,96.357z M324.965,169.312c2.081,21.335,11.341,40.597,25.33,55.33v70.705h29.955v-49.52   c11.624,5.176,24.484,8.059,38.008,8.059c0.741,0,1.479-0.011,2.216-0.028l-17.515,68.68H144.406l-40.573-153.226H324.965z"/>
-    <rect x="166.384" y="201.413" width="29.955" height="93.934"/>
-    <rect x="227.688" y="201.413" width="29.955" height="93.934"/>
-    <rect x="288.992" y="201.413" width="29.955" height="93.934"/>
-    <polygon
-            points="403.28,201.607 433.236,201.607 433.236,175.045 459.798,175.045 459.798,145.09 433.236,145.09 433.236,118.528    403.28,118.528 403.28,145.09 376.718,145.09 376.718,175.045 403.28,175.045  "/>
-</g>
-
-
-</svg></a>
-</div>
-<div class="content">
-    <video muted="" playsinline="" loop="" autoplay=""
-           poster="https://xtrfy.com/wp/wp-content/uploads/2021/01/MZ1-Frontpage.jpg">
-        <source src="https://xtrfy.com/wp/wp-content/uploads/2021/01/Xtrfy-MZ1-Frontpage-video.mp4" type="video/mp4">
-    </video>
-    <h2 class="specof">special offer!</h2>
-    <span class="special">
-                <h1>Xtrfy MZ1</h1>
-                <a href="https://www.xtrfy.com/mice/mz1" class="animated-button">check it out</a>
-            </span>
-    <h3 class="description"> Ultra-light construction,<br> perfect shape and customizable RGB</h3>
-    <h1 class="otherbr">OTHERS BRANDS</h1>
-    <span class="brands">
-        <svg class="card" width="324" height="379" viewBox="0 0 324 379" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g filter="url(#filter0_d)">
-                <rect x="7" y="3" width="310" height="365" rx="64" fill="white"/>
-            </g>
-            <defs>
-                <filter id="filter0_d" x="0" y="0" width="324" height="379">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
-                    <feOffset dy="4"/>
-                    <feGaussianBlur stdDeviation="3.5"/>
-                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
-                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
-                </filter>
-            </defs>
-        </svg>
-        <svg class="card" width="324" height="379" viewBox="0 0 324 379" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g filter="url(#filter0_d)">
-                <rect x="7" y="3" width="310" height="365" rx="64" fill="white"/>
-            </g>
-            <defs>
-                <filter id="filter0_d" x="0" y="0" width="324" height="379">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
-                    <feOffset dy="4"/>
-                    <feGaussianBlur stdDeviation="3.5"/>
-                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
-                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
-                </filter>
-            </defs>
-        </svg>
-        <svg class="card" width="324" height="379" viewBox="0 0 324 379" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g filter="url(#filter0_d)">
-                <rect x="7" y="3" width="310" height="365" rx="64" fill="white"/>
-            </g>
-            <defs>
-                <filter id="filter0_d" x="0" y="0" width="324" height="379">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
-                    <feOffset dy="4"/>
-                    <feGaussianBlur stdDeviation="3.5"/>
-                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
-                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
-                </filter>
-            </defs>
-        </svg>
-        <svg class="card" width="324" height="379" viewBox="0 0 324 379" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g filter="url(#filter0_d)">
-                <rect x="7" y="3" width="310" height="365" rx="64" fill="white"/>
-            </g>
-            <defs>
-                <filter id="filter0_d" x="0" y="0" width="324" height="379">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
-                    <feOffset dy="4"/>
-                    <feGaussianBlur stdDeviation="3.5"/>
-                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
-                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
-                </filter>
-            </defs>
-        </svg>
-    </span>
-</div>
-<div class="footer">
-    <p class="partners">Our partners</p>
-    <hr color="#252529" width="9999px">
-    <div class="partners"><a class="patnnlink" href="https://www.xtrfy.com/">Xtrfy</a></div>
-    <div class="partners"><a class="patnnlink" href="https://www.razer.ru/">Razer</a></div>
-    <div class="partners"><a class="patnnlink" href="https://www.hyperxgaming.com/ru">HyperX</a></div>
-    <div class="partners"><a class="patnnlink" href="https://ru.steelseries.com/">Steel Series</a></div>
-    <div class="partners"><a class="patnnlink" href="https://www.corsair.com/ru/ru/">Corsair</a></div>
-</div>
 </body>
 </html>
